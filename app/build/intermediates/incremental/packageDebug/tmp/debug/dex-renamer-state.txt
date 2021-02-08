@@ -1,0 +1,4 @@
+#Mon Feb 08 04:22:49 PST 2021
+base.0=C\:\\Users\\Sk\\AndroidStudioProjects\\Stopwatch\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

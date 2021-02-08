@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#211D44"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivSplash"
+        android:layout_width="330dp"
+        android:layout_height="370dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/icget"
+        android:scaleType="centerCrop"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/firstTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Count time"
+        android:layout_below="@+id/ivSplash"
+        android:layout_marginTop="34dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/secondTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Every Second Matters\nSo Have Track Of Your Every Second"
+        android:layout_below="@+id/firstTextView"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:textColor="#A3A2AD"
+        android:textAlignment="center"
+        android:lineSpacingExtra="8dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/secondTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/bgbtnblue"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        app:backgroundTint="#00ACC1" />
+
+</RelativeLayout>
